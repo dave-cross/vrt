@@ -21,7 +21,7 @@ var scenarios = []; // The array that'll have the URL paths to check
 var environments = {
   'local': 'http://localhost:8000',
   'dev': 'http://' + process.env.BASIC_AUTH + '\@develop-' + process.env.PROJECT_NAME + '.pantheonsite.io',
-  'staging': 'http://' + process.env.BASIC_AUTH + '\@stage-' + process.env.PROJECT_NAME + '.pantheonsite.io',,
+  'staging': 'http://' + process.env.BASIC_AUTH + '\@stage-' + process.env.PROJECT_NAME + '.pantheonsite.io',
   'prod': 'http://LIVESITE.com'
 };
 var default_environment = 'local';
